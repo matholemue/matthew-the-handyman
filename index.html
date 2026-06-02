@@ -21,9 +21,10 @@
   nav a:hover { background: rgba(255,255,255,0.1); }
   nav a.cta-nav { background: #f0a500; color: #1a1a2e; font-weight: 600; }
   nav a.cta-nav:hover { background: #d49500; }
-  .hero { background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4e 100%); color: white; padding: 80px 24px 80px; text-align: center; }
-  .hero h1 { font-size: 2.5rem; font-weight: 700; letter-spacing: -0.5px; }
-  .hero .sub { font-size: 1.2rem; margin-top: 12px; opacity: 0.85; max-width: 560px; margin-left: auto; margin-right: auto; }
+  .hero { background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4e 100%); color: white; padding: 60px 24px 80px; text-align: center; position: relative; }
+  .hero-logo { display: block; max-width: 420px; width: 90%; margin: 0 auto 8px; }
+  .hero h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; position: relative; }
+  .hero .sub { font-size: 1.1rem; margin-top: 8px; opacity: 0.85; max-width: 500px; margin-left: auto; margin-right: auto; position: relative; }
   .hero .cta { display: inline-block; background: #f0a500; color: #1a1a2e; font-weight: 700; padding: 14px 32px; border-radius: 8px; margin-top: 24px; text-decoration: none; font-size: 1.1rem; }
   .hero .cta:hover { background: #d49500; }
   .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
@@ -75,6 +76,7 @@
 
 <main>
 <div class="hero">
+  <img src="hero.svg" alt="Matthew the Handyman" class="hero-logo">
   <h1>Your to-do list, handled.</h1>
   <div class="sub">Professional handyman services in Moorpark and surrounding areas. Clear estimates, upfront pricing, no surprises.</div>
   <a href="#contact" class="cta">Text Me for a Quote →</a>
